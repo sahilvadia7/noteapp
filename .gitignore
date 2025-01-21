@@ -1,0 +1,16 @@
+# 1. React-specific ignores (notepad/)
+noteapp/node_modules/
+noteapp/build/
+noteapp/.env
+noteapp/.vscode/
+
+# 2. Spring Boot-specific ignores (backendNoteapp/)
+backendNoteapp/target/
+backendNoteapp/.idea/
+backendNoteapp/.vscode/
+backendNoteapp/.env
+
+# 3. OS files
+.DS_Store
+Thumbs.db
+
