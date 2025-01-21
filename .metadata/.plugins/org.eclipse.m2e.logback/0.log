@@ -16,3 +16,12 @@ java.io.FileNotFoundException: /Users/sahilvadia/Work/discord/challenge-projects
 	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2492)
 	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$1(IDEWorkbenchAdvisor.java:553)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+2025-01-21 16:42:19,344 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-01-21 16:42:39,751 [Worker-7: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:backendNoteapp:0.0.1-SNAPSHOT @ /Users/sahilvadia/Work/discord/challenge-projects/noteapp/backendNoteapp/pom.xml.
+2025-01-21 16:42:40,338 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-01-21 16:42:40,346 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-01-21 16:42:40,358 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/sahilvadia/Work/discord/challenge-projects/noteapp/backendNoteapp/src/test/resources
+2025-01-21 16:42:40,700 [Worker-24: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:backendNoteapp:0.0.1-SNAPSHOT @ /Users/sahilvadia/Work/discord/challenge-projects/noteapp/backendNoteapp/pom.xml.
+2025-01-21 16:42:41,664 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-01-21 16:42:41,672 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-01-21 16:42:41,675 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/sahilvadia/Work/discord/challenge-projects/noteapp/backendNoteapp/src/test/resources

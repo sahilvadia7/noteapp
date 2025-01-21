@@ -272,3 +272,68 @@ java.io.FileNotFoundException: /Users/sahilvadia/Work/discord/challenge-projects
 
 !ENTRY org.eclipse.core.resources 2 10035 2025-01-21 16:16:16.580
 !MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2025-01-21 16:42:02.024 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=23.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/sahilvadia/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.jee.product -keyring /Users/sahilvadia/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-01-21 16:42:04.572
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-01-21 16:42:16.872
+!MESSAGE Logback config file: /Users/sahilvadia/Work/discord/challenge-projects/noteapp/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-01-21 16:42:17.133
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-01-21 16:42:17.133
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-01-21 16:42:17.334
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-01-21 16:42:17.334
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-21 16:42:38.204
+!MESSAGE Classpath changed for project: backendNoteapp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-21 16:42:38.591
+!MESSAGE Classpath changed for project: backendNoteapp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-21 16:42:40.385
+!MESSAGE Classpath changed for project: backendNoteapp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-21 16:42:40.389
+!MESSAGE Boot project ADDED: backendNoteapp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-21 16:42:40.389
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-21 16:42:40.403
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-21 16:42:40.416
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/java
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=/Users/sahilvadia/Work/discord/challenge-projects/noteapp/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1737457960416
+-Dlanguageserver.hover-timeout=225
+-jar
+/Applications/Eclipse.app/Contents/Eclipse/../../../../Users/sahilvadia/.p2/pool/plugins/org.springframework.tooling.boot.ls_1.58.0.202410160331/servers/spring-boot-language-server/spring-boot-language-server-1.58.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-21 16:42:40.416
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-21 16:42:40.418
+!MESSAGE Classpath changed for project: backendNoteapp
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-21 16:42:40.420
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 42987
