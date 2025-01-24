@@ -1,6 +1,5 @@
 package com.example.note.controller;
 
-import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +13,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.note.model.Notes;
@@ -29,6 +27,7 @@ public class NoteController {
 	@Autowired
 	private NoteService noteService;
 	
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	@PostMapping("/addNote")
 	public ResponseEntity<?> addNote(@RequestBody Notes note){
 		if(note != null) {
@@ -37,6 +36,7 @@ public class NoteController {
 		return new ResponseEntity(HttpStatus.NOT_ACCEPTABLE);
 	}
 	
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	@GetMapping("/getNotes")
 	public ResponseEntity<?> getAllNote(){
 		return new ResponseEntity(noteService.getAllNote(),HttpStatus.FOUND);
