@@ -144,11 +144,3 @@ Contributions are welcome! Here’s how you can contribute:
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
 ---
-
-### Key Notes:
-- Replace `https://github.com/sahilvadia7/noteapp.git` with your actual GitHub repository link.
-- Update folder names like `backendNoteapp` and `notepad` to match your project structure.
-- Add screenshots or GIFs of your app to make the README more engaging.
-- Include a **Features** section with bullet points to highlight the app's functionality.
-
-Let me know if you need further assistance!   😊
